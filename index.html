@@ -24,11 +24,12 @@
     }
 
     .card {
-      margin: 40px;
-      padding: 10px;
+      margin: 30px 40px 30px 40px;
+      padding: 10px 35px 10px 35px;
       border-radius: 5px;
       background-color: white;
       color: #0052cc;
+      text-align: justify;
     }
 
     h1 {
@@ -37,6 +38,7 @@
 
     h2 {
       color: #7e9efe;
+      text-align: center;
     }
 
     p {
@@ -54,11 +56,29 @@
       max-width: 80%;
     }
 
+    .separator {
+      max-width: 160px;
+      padding: 0px;
+    }
+
+    @media (max-width: 500px) {
+
+      .card {
+        margin: 25px;
+      }
+
+      p {
+        font-size: 16px;
+      }
+
+    }
+
   </style>
 </head>
 <body>
   <div class="container">
     <h1>A bit about Bitsy</h1>
+    <img class="separator" src="assets/separator.png"/>
     <div class="card">
       <h2>What is Bitsy?</h2>
       <p>
@@ -70,6 +90,7 @@
         <a href="https://www.rockpapershotgun.com/2018/02/23/how-small-game-makers-found-their-community-with-bitsy/">RockPaperShotgun</a>.
       </p>
     </div>
+    <img class="separator" src="assets/separator.png"/>
     <div class="card">
       <h2>How do I get started?</h2>
       <p>You can find Bitsy on <a href="https://ledoux.itch.io/bitsy">itch.io</a>.
@@ -77,6 +98,7 @@
         Claire Morley's <a href="http://www.clairemorleyart.com/a-bitsy-tutorial">tutorial</a> for
         a more in-depth guide!</p>
     </div>
+    <img class="separator" src="assets/separator.png"/>
     <div class="card">
       <h2>Where can I find Bitsy games?</h2>
       <p>You can have a look at games collections by <a href="https://itch.io/c/90743/bitsy-games">Adam Le Doux</a>
@@ -84,11 +106,13 @@
         <a href="https://itch.io/games/tag-bitsy">itch.io</a> tag. You can also find a list of all Bitsy games ever made on the
         <a href="https://docs.google.com/spreadsheets/d/1eBUgCYOnMJ9REHuZdTodc6Ft2Vs6JXbH4K-bIgL9TPc/edit#gid=0">Bitsy Omnibus</a>.</p>
     </div>
+    <img class="separator" src="assets/separator.png"/>
     <div class="card">
       <h2>Miscellaneous</h2>
       <p>You might want to take a look at the <a href="https://twitter.com/ragzouken/status/941094236463816705">Bitsy Boutique</a>
         and <a href="https://github.com/Ragzouken/bitsy-archive">Bitsy Archive</a> by <a href="https://twitter.com/ragzouken">@ragzouken</a>!</p>
     </div>
+    <img class="separator" src="assets/separator.png"/>
     <div class="card">
         <img src="assets/lorenzo_twitter.png"/>
         If you wish to contribute to this webpage, check out our <a href="https://github.com/vaidap/abitaboutbitsy">GitHub</a>.</p>
